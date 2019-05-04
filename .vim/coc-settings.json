@@ -2,6 +2,10 @@
   "coc.preferences.rootPatterns": [".vim", ".git", ".hg", ".projections.json", ".root"],
   "coc.preferences.hoverTarget": "preview",
   "diagnostic.enable": false,
+  "snippets.extends": {
+    "cpp": ["c"],
+    "cuda": ["cpp"],
+  },
   "languageserver": {
     "ccls": {
       "command": "ccls",
